@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marketing e publicidade</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+        <link  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_card.css" />
+        <link rel="stylesheet" href="style_carrossel.css" />
+        <link rel="stylesheet" href="style_informacao.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"/>
+		<link rel="stylesheet" href="style_galeria.css" />
+        <link rel="stylesheet" href="style_menu.css" />
+    </head>
+    <!-- The body inline styles and the empty div are only used for demo purposes to push down the footer. -->
+
+    <body>
+        <header>
+			<div class="hamburger">
+				<i class="fas fa-bars"></i>
+			</div>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a class="nav-link current" href="#">
+							<span><i class="fas fa-home"></i></span> Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<span><i class="fas fa-address-card"></i></span> About
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<span><i class="fas fa-briefcase"></i></span> Portfolio
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<span><i class="fas fa-blog"></i></span> Blog
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<span><i class="fas fa-envelope"></i></span> Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="zoom">
+                <section class="container">
+                    <h2 class="title">
+                        <span class="primary">Nosso time</span>
+                        <span class="secondary">
+                            Especializados em marketing digital e publicidade.
+                        </span>
+                    </h2>
+                    <div class="gallery-wrapper">
+                        <figure class="gallery-item">
+                            <img src="./images/portrait-female-1.jpg" alt="" class="item-image" />
+                            <figcaption class="item-description">
+                                <h2 class="name">Jane Doe</h2>
+                                <span class="role">Director</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="./images/portrait-female-2.jpg" alt="" class="item-image" />
+                            <figcaption class="item-description">
+                                <h2 class="name">Kaike</h2>
+                                <span class="role">Marketing</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="./images/portrait-male-1.jpg" alt="" class="item-image" />
+                            <figcaption class="item-description">
+                                <h2 class="name">Mariana</h2>
+                                <span class="role">Finance</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="./images/portrait-male-2.jpg" alt="" class="item-image" />
+                            <figcaption class="item-description">
+                                <h2 class="name">Pedro</h2>
+                                <span class="role">Operations</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item">
+                            <img src="./images/portrait-female-3.jpg" alt="" class="item-image" />
+                            <figcaption class="item-description">
+                                <h2 class="name">Gabriel</h2>
+                                <span class="role">Human resources</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+				<!-- Main content simulation -->
+				<script src="script.js"></script>
+        <section class="faq">
+			<header class="faq__header">
+				<h2 class="faq__title">Perguntas frequentes</h2>
+				<p class="faq__subtitle">
+					Respondendo frequentes perguntas de clientes.
+				</p>
+			</header>
+			<hr class="faq__separator" />
+			<div class="faq__item">
+				<button
+					class="faq__question"
+					aria-expanded="false"
+					aria-controls="answer1"
+				>
+                    Qual o diferencial da nossa empresa?
+					<i class="faq__icon ri-arrow-drop-right-line"></i>
+				</button>
+				<div class="faq__answer" id="answer1" aria-hidden="true">
+					<div class="faq__answer-inner">
+						<p class="faq__answer-text">
+							Resultados mensuráveis: Nossa empresa se diferencia por sua capacidade de fornecer resultados tangíveis e mensuráveis aos clientes. Por meio da análise de dados e métricas de desempenho, você pode mostrar o impacto positivo das campanhas de marketing digital implementadas, fornecendo relatórios detalhados e insights valiosos.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq__item">
+				<button
+					class="faq__question"
+					aria-expanded="false"
+					aria-controls="answer2"
+				>
+					O que a nossa empresa fornece?
+					<i class="faq__icon ri-arrow-drop-right-line"></i>
+				</button>
+				<div class="faq__answer" id="answer2" aria-hidden="true">
+					<div class="faq__answer-inner">
+						<p class="faq__answer-text">
+							A nossa empresa fornece:
+                            Publicidade online,
+                            Mídias sociais,
+                            Marketing de conteúdo,
+                            Marketing por e-mail.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq__item">
+				<button
+					class="faq__question"
+					aria-expanded="false"
+					aria-controls="answer3"
+				>
+					Como as redes sociais influenciam no crescimento da empresa?
+					<i class="faq__icon ri-arrow-drop-right-line"></i>
+				</button>
+				<div class="faq__answer" id="answer3" aria-hidden="true">
+					<div class="faq__answer-inner">
+						<p class="faq__answer-text">
+							Aumento da visibilidade e alcance,
+                            Construção de marca,
+                            Engajamento com o público-alvo,
+                            Entre outros.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="faq__item">
+				<button
+					class="faq__question"
+					aria-expanded="false"
+					aria-controls="answer4"
+				>
+					Do you offer refunds?
+					<i class="faq__icon ri-arrow-drop-right-line"></i>
+				</button>
+				<div class="faq__answer" id="answer4" aria-hidden="true">
+					<div class="faq__answer-inner">
+						<p class="faq__answer-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+							accumsan mauris quis aliquet sollicitudin.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="./app.js"></script>
+        <div class="swiper carousel">
+			<div class="swiper-wrapper">
+				<figure class="swiper-slide">
+					<img src="./images/01.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2>Yorkshire Terrier</h2>
+						<p>
+							The Yorkshire Terrier is a British breed of toy dog of terrier
+							type. It is among the smallest of the terriers and indeed of all
+							dog breeds, with a weight of no more than 3.2 kg.
+						</p>
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/02.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2>German Shepherd</h2>
+						<p>
+							The German Shepherd or Alsatian is a German breed of working dog
+							of medium to large size. The breed was developed by Max von
+							Stephanitz using various traditional German herding dogs from
+							1899.
+						</p>
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/03.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2>American Pit Bull</h2>
+						<p>
+							The American Pit Bull Terrier is a dog breed recognized by the
+							United Kennel Club and the American Dog Breeders Association, but
+							not the American Kennel Club.
+						</p>
+					</figcaption>
+				</figure>
+				<figure class="swiper-slide">
+					<img src="./images/04.jpg" alt="" />
+					<figcaption class="swiper-description">
+						<h2>Bulldog</h2>
+						<p>
+							The Bulldog is a British breed of dog of mastiff type. It may also
+							be known as the English Bulldog or British Bulldog. It is a medium
+							sized, muscular dog of around 40–55 lb.
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			<button type="button" class="swiper-button-next"></button>
+			<button type="button" class="swiper-button-prev"></button>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			const swiper = new Swiper('.carousel', {
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev'
+				},
+				pagination: {
+					el: '.swiper-pagination'
+				}
+			})
+		</script>
+        <div><figure class="card">
+			<img
+				src="./neom-THlO6Mkf5uI-unsplash.jpg"
+				alt=""
+				class="card__image"
+			/>
+			<figcaption class="card__body">
+				<h2 class="card__title">Hisma Desert</h2>
+				<p class="card__description">
+					Some description about this card and it's purpose.
+				</p>
+			</figcaption>
+		</figure></div>
+        <!-- The body inline styles and the empty div are only used for demo purposes to push down the footer. -->
+
+				<!-- Main content simulation end -->
+			</div>
+		</main>
+		
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__top">
+                    <div class="company__info">
+                        <h2 class="company__logo">Microsoft</h2>
+                        <p class="company__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores,
+                            nam, ad magni expedita.
+                        </p>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="ri-facebook-circle-line"></i>
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__list-link">
+                                    <i class="ri-twitter-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="copyright">&copy;2021 Company name. All rights reserved.</span>
+                    </div>
+
+                    <div>
+                        <h6 class="footer__title">Microsoft Store</h6>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">About</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Careers</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Affiliates</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6 class="footer__title">Education</h6>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">About</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Careers</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Affiliates</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6 class="footer__title">Business</h6>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">About</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Careers</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Affiliates</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-link">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
